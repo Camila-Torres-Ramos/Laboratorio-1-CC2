@@ -1,0 +1,23 @@
+-Escribir un programa que lea 10 datos desde el teclado y sume sólo aquellos que sean negativos.
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+ int x,acum=0,rep=1,nump=1;
+ cout<<"SUMA DE NEGATIVOS EN LISTA DE DIEZ"<<endl;
+ while(rep<=10)
+ {
+ 	cout<<nump++<<"Ingrese un numero: ";
+ 	cin>>x;
+ 	if(x<0)
+ 	  acum+=x;
+ 	  rep++;
+}
+cout<<"La suma de los nuemeros negativos es: "<<acum<<endl;
+
+system("PAUSE");
+return 0;
+}
