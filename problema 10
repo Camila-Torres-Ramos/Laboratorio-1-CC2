@@ -1,0 +1,16 @@
+Escribir un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta. 
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+In [1]:
+key = "contraseña"
+password = input("Introduce la contraseña: ")
+if key == password.lower():
+    print("La contaseña coincide")
+else:
+    print("La contraseña no coincide")
+return 0;
+}
